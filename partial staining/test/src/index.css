@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    
+}
+
+#mosaic {
+    background-color: #393939;
+    position: relative;
+}
+
+.counters, .counter {
+    display: flex;
+    flex-direction: row;
+}
+.counters {
+    justify-content: space-between;
+}
+
+.props-list, .size-controls, .checkbox-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox-list > div {
+    margin: 0 16px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
